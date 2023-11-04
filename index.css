@@ -1,0 +1,31 @@
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.header__box {
+    display: flex;
+    flex-direction: column;    
+}
+
+.peaker {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 10px solid black;
+}
+
+.peaker__box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid black;
+    gap: 5px;
+    font-size: 20px;
+}
